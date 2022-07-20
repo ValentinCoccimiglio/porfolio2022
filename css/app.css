@@ -97,7 +97,7 @@
     fill: currentColor;
   }
 
-  .body{
+  body{
     font-family: var(--tipo-principal);
     font-size: 100%;
     min-height: 100vh;
