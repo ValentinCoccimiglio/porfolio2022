@@ -218,7 +218,7 @@
   }
   .seccion .ul .li{
     margin: 0 1em;
-    color: var(--blanco);
+    color: var(--negro);
   }
   .seccion .ul .a{
     border-top: 1px solid rgb(255, 255, 255);
@@ -238,14 +238,14 @@
   animation-delay: .2s;
 }
   .seccion .ul .a:hover{
-    border-color: rgba(255,255,255,0.7);
+    border-color: rgba(250, 0, 0, 0.7);
   }
   .seccion .h2{
     font-family: var(--tipo-principal);
     font-weight: 800;
     font-size: 5em;
     line-height: 1em;
-    color: rgba(255,255,255,0.7);
+    color: var(--gris);
     mix-blend-mode: multiply;
   }
   .seccion .h3{
@@ -253,7 +253,7 @@
     font-size: 5em;
     /* font-style: oblique; */
     line-height: 1em;
-    color: rgba(255,255,255,0.7);
+    color: var(--gris);
   }
   .seccion .p{}
   .seccion .grid{
@@ -331,14 +331,17 @@
   .about{}
   .about .h2{
     margin: 0 0.1rem;
-    color: var(--blanco);
+    color: var(--negro);
+    font-size: 3em;
+
   }
   .about .p{
     max-width: 40em;
     margin: 0 0.2em;
-    font-size: 1em ;
-    color: var(--blanco);
+    font-size: 1.5em ;
+    color: var(--negro);
     text-align: left;
+    text-decoration: dotted;
   }
   .about .rrss{
     width: 100%;
@@ -349,7 +352,7 @@
   }
   .about .li{
     margin: 0 1em;
-    color: var(--blanco);
+    color: var(--negro);
   }
   .about .a{}
   .about .svg{
@@ -359,7 +362,7 @@
   .footer{
     padding: 2em 0;
     text-align: center;
-    color: var(--blanco);
+    color: var(--gris);
     position: relative;
     z-index: 2;
   }
